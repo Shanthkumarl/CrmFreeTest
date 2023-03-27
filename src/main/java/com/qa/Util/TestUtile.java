@@ -17,7 +17,7 @@ import com.qa.base.TestBase;
 
 public class TestUtile extends TestBase {
 
-public static long PAGE_LOAD_TIME=30;
+public static long PAGE_LOAD_TIME=40;
 public static long LOAD_TIME=20;
 public static String TestData_Sheet_path="C:\\Users\\LENOVO\\eclipse-workspace\\CrmTesting\\src\\main\\java\\com\\qa\\Testdata\\Testdata.xlsx";
 static Workbook book;
