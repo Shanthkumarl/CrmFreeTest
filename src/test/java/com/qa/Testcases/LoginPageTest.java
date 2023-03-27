@@ -39,6 +39,7 @@ public void CrmImageTest() {
 @Test(priority = 3)
 public void ValidateloginTest() {
 	Hp=lp.ValidateLoginPage(Prop.getProperty("Username"), Prop.getProperty("Password"));
+	System.out.println("login is suuccesfully ");
 }
 
 
