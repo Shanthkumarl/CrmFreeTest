@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.TestBase;
-import com.sun.tools.javac.util.Assert;
 
 public class HomePage extends TestBase {
 
