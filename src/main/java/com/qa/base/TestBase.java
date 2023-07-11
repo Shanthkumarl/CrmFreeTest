@@ -39,7 +39,8 @@ public static void initailzation() {
  String Browsername = Prop.getProperty("Browser");
  if (Browsername.equals("chrome")) {
 	 WebDriverManager.chromedriver().setup();
-	 driver=new ChromeDriver();
+	
+	driver=new ChromeDriver();
  }
  else if (Browsername.equals("ff")) {
 	 WebDriverManager.firefoxdriver().setup();

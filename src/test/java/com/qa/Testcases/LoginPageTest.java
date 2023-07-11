@@ -1,5 +1,8 @@
 package com.qa.Testcases;
 
+import java.util.HashMap;
+
+import org.seleniumhq.jetty9.util.security.Credential;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -41,6 +44,31 @@ public void ValidateloginTest() {
 	Hp=lp.ValidateLoginPage(Prop.getProperty("Username"), Prop.getProperty("Password"));
 	System.out.println("login is suuccesfully ");
 }
+
+
+/*public static HashMap<String, String> Hashmaptogetdata() {
+	HashMap<String, String>usermap=new HashMap<String, String>();
+	usermap.put("admin", "admin:admin@123");
+	usermap.put("seller", "seller:seller@123");
+	usermap.put("customer", "customer:customer@123");
+	
+	return usermap;
+	}
+
+public static String getusername(String role) {
+	String credentail = Hashmaptogetdata().get(role);
+	return credentail.split(":")[0];
+}
+
+public static String getPassword(String role) {
+	String credentail = Hashmaptogetdata().get(role);
+	return credentail.split(":")[1];
+}
+@Test
+public void login() {
+	Hp=lp.ValidateLoginPage(getusername("customer"), getPassword("customer"));
+}
+*/
 
 
 @AfterClass
